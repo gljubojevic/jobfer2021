@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>JobFER 2021</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/sky.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -16,8 +16,100 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background-image="img/imgLogoWhite.svg" data-background-size="300px" data-background-position="bottom left">
+					<h1>Kako postati CTO?</h1>
+					<small>s prosječnim sposobnostima, ključ uspjeha za budućeg CTO-a</small>
+					<p><a href="https://en.wikipedia.org/wiki/Chief_technology_officer" target="_blank">https://en.wikipedia.org/wiki/Chief_technology_officer</a></p>
+				</section>
+				<section>
+					<h2>Kako?</h2>
+					<p class="fragment">više je mogućnosti...</p>
+					<ul>
+						<li class="fragment">Pokrenite svoju tvrtku</li>
+						<li class="fragment">Učite, isprobavajte, steknite iskustvo</li>
+						<li class="fragment">Negativnom selekcijom</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Budite odvažni</h2>
+					<ul>
+						<li class="fragment">Prihvatite projekt za koji niste sigurni da znate napraviti</li>
+						<li class="fragment">Završite projekt nemojte odustati</li>
+					</ul>
+					<p class="fragment">
+						Što dijete zna što je je kamen?
+						<br>uzme i nosi...
+					</p>
+				</section>
+				<section>
+					<h2>Ljudi lako odustaju...</h2>
+					<ul>
+						<li class="fragment">Nemojte odustajati</li>
+						<li class="fragment">Odustati je lako</li>
+						<li class="fragment">Završiti zahtjeva trud i fokus</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Svi griješe</h2>
+					<p class="fragment">Nitko nije savršen iako ponekad tako izgleda</p>
+					<ul>
+						<li class="fragment">Ako ništa ne radite ne možete ni griješiti</li>
+						<li class="fragment">Popraviti grešku je bolje nego ne raditi ništa</li>
+						<li class="fragment">Planirajte greške</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Radite dosadne zadatke?</h2>
+					<p class="fragment">Dosada je izvrsna prilika za napredak</p>
+					<ul>
+						<li class="fragment">Automatizirajte dosadne zadatke</li>
+						<li class="fragment">Unaprijedite segment na kojem radite</li>
+						<li class="fragment">Pojednostavnite code</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Sve se mijenja</h2>
+					<p class="fragment">Što znate danas možda ne vrijedi sutra...</p>
+					<ul>
+						<li class="fragment">Učite nove stvari</li>
+						<li class="fragment">Učite stare stvari</li>
+						<li class="fragment">Isprobavajte druge pristupe istom problemu</li>
+						<li class="fragment">Svaki korak mijenja sliku budućnosti</li>
+					</ul>
+					<p class="fragment"><a href="https://www.google.com/search?q=definition+of+insanity" target="_blank">https://www.google.com/search?q=definition+of+insanity</a></p>
+				</section>
+				<section>
+					<h2>Iskustvo ostaje</h2>
+					<p class="fragment">U svakom projektu naučiti ćete nešto novo, a sigurno kako nešto</p>
+					<ul>
+						<li class="fragment">želite ponoviti</li>
+						<li class="fragment">ne želite ponoviti</li>
+						<li class="fragment">želite promjeniti</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Produkcija</h2>
+					<p class="fragment">Tek u produkciji možete vidjeti prave probleme</p>
+					<ul>
+						<li class="fragment">U produkciji se najviše može naučiti</li>
+						<li class="fragment">Kad projekt bude u produkciji pravi posao počinje</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Budite CTO</h2>
+					<p class="fragment">za sebe danas...</p>
+					<ul>
+						<li class="fragment">Koje tehnologije želite korisiti?</li>
+						<li class="fragment">Što želite koristiti sad, za godinu ili ...</li>
+						<li class="fragment">Što ste isprobali i stekli pozitivno iskustvo?</li>
+						<li class="fragment">Što možete preporučiti kolegama?</li>
+						<li class="fragment">Što je novo i uzbudljivo?</li>
+					</ul>
+				</section>
+				<section data-background-image="img/imgLogoWhite.svg" data-background-size="300px" data-background-position="bottom left">
+					<h1>Hvala!</h1>
+					<p><a href="mailto:goran.ljubojevic@minus5.hr">goran.ljubojevic@minus5.hr</a></p>
+				</section>
 			</div>
 		</div>
 
@@ -31,6 +123,10 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				slideNumber: true,
+				
+				pdfMaxPagesPerSlide: 1,
+				pdfSeparateFragments: false,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
